@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%lu, %lu", previous, current);
 
-	for (count = 3; count <= 86; count++)
+	for (count = 3; count <= 4; count++)
 	{
 	temp = current;
 	current += previous;
