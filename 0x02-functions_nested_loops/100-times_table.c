@@ -18,6 +18,7 @@ int print_times_table(int n)
 				putformat(i * j);
 			_putchar('\n');
 		}
+	return 0;
 	}
 	return 0;
 }
