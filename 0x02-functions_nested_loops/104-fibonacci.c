@@ -7,22 +7,22 @@
  */
 int main(void)
 {
-    unsigned long int current = 1;
-    unsigned long int previous = 1;
-    unsigned long int temp;
-    int count;
+	unsigned long int current = 1;
+	unsigned long int previous = 1;
+	unsigned long int temp;
+	int count;
 
-    printf("%lu, %lu", previous, current);
+	printf("%lu, %lu", previous, current);
 
-    for (count = 3; count <= 98; count++)
-    {
-        temp = current;
-        current += previous;
-        previous = temp;
+	for (count = 3; count <= 98; count++)
+	{
+	temp = current;
+	current += previous;
+	previous = temp;
 
-        printf(", %lu", current);
-    }
+	printf(", %lu", current);
+	}
 
-    printf("\n");
-    return (0);
+	printf("\n");
+	return (0);
 }
