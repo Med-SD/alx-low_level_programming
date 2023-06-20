@@ -5,7 +5,7 @@
  * @n: An input integer value
  * Return: Nothing
  */
-void print_times_table(int n)
+int print_times_table(int n)
 {
 	int i, j;
 
@@ -19,6 +19,7 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
+	return 0;
 }
 
 /**
